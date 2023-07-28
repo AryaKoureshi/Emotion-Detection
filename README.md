@@ -16,6 +16,7 @@ This repository contains the code for an Emotion Detection project using deep le
   - [Model 2 - Complex CNN](#model-2---complex-cnn)
   - [Model 3 - VGG16 with Transfer Learning](#model-3---vgg16-with-transfer-learning)
 - [Data Generator](#data-generator)
+- [Dataset](#dataset)
 - [Real-Time Emotion Detection](#real-time-emotion-detection)
 
 ---
@@ -56,6 +57,12 @@ The third model utilizes the VGG16 architecture with transfer learning. The VGG1
 ## Data Generator
 
 To prevent overfitting and improve the accuracy of all three models, a data generator is employed. The data generator feeds data to the models in batches, allowing for efficient memory usage during training.
+
+---
+
+## Dataset
+
+The emotion detection models were trained and evaluated using the [FER - Faces Emotion Recognition](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer) dataset available on Kaggle. The dataset consists of facial images categorized into various emotions, making it suitable for training emotion recognition models.
 
 ---
 
