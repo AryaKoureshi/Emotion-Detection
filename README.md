@@ -2,7 +2,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](EmotionDetection.ipynb)
 
-![Emotion Detection](cover.png)
+<p align="center">
+    <img width="50%" src="cover.png">
+</p>
 
 This repository contains the code for an Emotion Detection project using deep learning models and real-time processing. The project is implemented in Python using the TensorFlow framework and focuses on detecting human emotions from images and real-time video streams.
 
@@ -36,21 +38,26 @@ In this project, three different deep learning models were utilized for emotion 
 
 The first model is a simple Convolutional Neural Network (CNN) designed to detect emotions from input images. This model serves as a baseline for the subsequent, more complex models.
 
-![model 1](model1.png)
+<p align="center">
+    <img src="model1.png">
+</p>
 
 
 ### Model 2 - Complex CNN
 
 The second model is a more complex CNN architecture, which aims to improve emotion detection accuracy compared to the simple CNN model.
 
-![model 2](model2.png)
-
+<p align="center">
+    <img src="model2.png">
+</p>
 
 ### Model 3 - VGG16 with Transfer Learning
 
 The third model utilizes the VGG16 architecture with transfer learning. The VGG16 model, pre-trained on a large dataset, is employed as a feature extractor. The last layer of the VGG16 model is updated and fine-tuned to suit the emotion detection task.
 
-![model 3](model3.png)
+<p align="center">
+    <img src="model3.png">
+</p>
 
 ---
 
